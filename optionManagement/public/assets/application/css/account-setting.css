@@ -1,0 +1,105 @@
+body {
+  color: #333;
+  background-color: #f7f7f7;
+}
+
+/* 容器公用部分开始 */
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  /*width: 1200px;*/
+  width: 1024px;
+  font-size: 14px;
+}
+
+.sidebar {
+  width: 290px;
+  min-height: 600px;
+  background-color: #fff;
+}
+
+.account-setting {
+ /* padding: 30px 20px 40px;
+  width: 830px;
+  min-height: 600px;
+  background-color: #fff;*/
+  padding: 10px 0px 3px;
+  /*width: 830px;*/
+  width: 724px;
+  /* min-height: 600px; */
+  background-color: #fff;
+}
+
+/* 容器公用部分结束 */
+
+.account-setting h3 {
+  margin: 0;
+  padding-bottom: 15px;
+  color: #999;
+  font-size: 14px;
+  font-weight: 400;
+  border-bottom: 1px solid #ddd;
+}
+
+.account-setting .title {
+  margin-left: 30px;
+  padding-left: 4px;
+  font-size: 18px;
+  border-left: 4px solid #2abd2a;
+}
+
+.account-setting .basic-setting {
+  margin: 0 0 40px 45px;
+}
+
+.account-setting .basic-setting .item {
+  display: flex;
+  align-items: center;
+}
+
+.account-setting .basic-setting .item img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.account-setting .basic-setting .item .chain-img {
+  width: 66px;
+  height: 61px;
+}
+
+.account-setting .basic-setting .item .text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0 10px 20px;
+  padding: 0 20px;
+  height: 38px;
+  /*width: 640px;*/
+  width: 520px;
+  border: 1px solid #ddd;
+}
+
+.account-setting .basic-setting .item .left-text {
+  /*width: 70px;*/
+  /*width: 140px;*/
+  /*padding: 20px 12px;*/
+  text-align: center;
+}
+
+.account-setting .basic-setting .item .text p {
+  margin: 0;
+  width: 400px;
+}
+
+.account-setting .basic-setting .item .text p span {
+  padding-left: 20px;
+  color: #999;
+}
+
+.account-setting .basic-setting .item .text .operation {
+  color: #3d81f2;
+  cursor: pointer;
+}

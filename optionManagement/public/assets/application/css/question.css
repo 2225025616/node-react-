@@ -1,0 +1,93 @@
+body {
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+
+/* 容器公用部分开始 */
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1200px;
+    /*width: 1024px;*/
+    font-size: 14px;
+}
+
+.sidebar {
+    width: 290px;
+    min-height: 600px;
+    background-color: #fff;
+}
+
+.certificate-question {
+    padding: 10px 20px 40px;
+    width: 830px;
+    min-height: 600px;
+    background-color: #fff;
+}
+
+
+/* 容器公用部分结束 */
+
+.certificate-question h3 {
+    margin: 0;
+    padding-bottom: 15px;
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1px solid #ddd;
+}
+
+.certificate-question .title {
+    margin: 20px 10px;
+    padding-left: 4px;
+    font-size: 18px;
+    border-left: 3px solid #3d8efc;
+}
+
+.certificate-question .title span{
+    margin-left: 10px;
+}
+
+.certificate-question .text-area {
+    margin: 0 10px;
+}
+
+.certificate-question .text-area textarea {
+    width: calc(100% - 10px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #eee;
+}
+
+.certificate-question .text-area textarea:focus {
+  /*outline: none;*/
+}
+
+.certificate-question .upload {
+    margin: 10px;
+    width: 120px;
+    height: 28px;
+    color: #fff;
+    outline: none;
+    border: none;
+    background-color: #2abd2a;
+}
+
+.certificate-question .picture {
+    margin: 10px;
+}
+
+.certificate-question .submit {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 10px;
+    width: 88px;
+    height: 28px;
+    color: #fff;
+    outline: none;
+    border: none;
+    background-color: #408bfc;
+}

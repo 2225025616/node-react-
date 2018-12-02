@@ -1,0 +1,59 @@
+body {
+  background-color: #f7f7f7;
+}
+
+.help-header{
+  margin-top: 100px;
+}
+
+.help-header .header {
+  border-bottom: 1px solid #eee;
+  padding-left: 20px;
+  width: 1180px;
+  height: 48px;
+  line-height: 48px;
+  background-color: #eee;
+  position: relative;
+  z-index: 0;
+  background-color: #3498db;
+  color: #fff;
+  margin: 0px auto;
+  border-radius: 5px;
+}
+
+.help-header .header a{
+  color: #fff;
+}
+
+.help-detail {
+  margin: 10px auto;
+  padding: 20px 0 30px;
+  width: 1200px;
+  background-color: #fff;
+  min-height: 300px;
+}
+
+.help-detail .header a{
+  color: #fff;
+}
+
+.help-detail .content {
+  padding: 0 40px 0 70px;
+}
+
+.help-detail .content .title {
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 36px;
+}
+
+.help-detail .content .time {
+  margin-top: 0;
+  color: #999;
+}
+
+.help-detail .content p {
+  line-height: 36px;
+  font-size: 14px;
+  color: #333;
+}

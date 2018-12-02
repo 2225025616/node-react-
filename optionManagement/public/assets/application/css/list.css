@@ -1,0 +1,115 @@
+body {
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+
+/* 容器公用部分开始 */
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    /*width: 1200px;*/
+    width: 1024px;
+    font-size: 14px;
+}
+
+.sidebar {
+    width: 290px;
+    min-height: 600px;
+    background-color: #fff;
+}
+
+.notification-list {
+    /*padding: 30px 20px 40px;*/
+    padding: 20px 20px 40px;
+    width: 830px;
+    min-height: 600px;
+    background-color: #fff;
+}
+
+.notification-list h3 {
+    margin: 0;
+    padding-bottom: 15px;
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1px solid #ddd;
+    margin-top: -10px;
+}
+
+.notification-list .subhead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10px 0;
+    padding-right: 20px;
+    height: 48px;
+    color: #999;
+    background-color: #eee;
+}
+
+.notification-list .subhead .type {
+    display: flex;
+}
+
+.notification-list .subhead .type p {
+    margin: 0 20px;
+    padding: 12px 4px;
+    color: #333;
+    font-size: 16px;
+}
+
+.notification-list .subhead .type .active {
+    border-bottom: 2px solid #408bfc;
+}
+
+.notification-list .subhead span {
+    padding: 0 10px;
+}
+
+.notification-list .items {
+    margin: 10px;
+    padding: 10px;
+}
+
+.notification-list .tab{
+    float: right;
+    margin-top: -30px;
+}
+
+.notification-list .tab span{
+    font-size: 14px;
+    color: rgb(0, 145, 234);
+}
+
+.notification-list .tab .tab-contents{
+    display:flex
+}
+
+.notification-list .tab .tab-contents .img{
+    margin-top: 1px;
+    margin-left: 5px;
+}
+
+
+
+.notification-list .tab img{
+    width: 20px;
+    height: 20px;
+}
+
+.notification-list .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    border-bottom: 1px solid #eee;
+    border-bottom-style: dashed;
+    font-size: 14px;
+}
+
+.notification-list .read span {
+    color: #999;
+}

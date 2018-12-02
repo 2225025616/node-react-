@@ -1,0 +1,92 @@
+body {
+  color: #333;
+  background-color: #f7f7f7;
+  min-height: 1024px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1200px;
+    /*width: 1024px;*/
+    font-size: 14px;
+}
+
+.blockchain-details {
+    padding: 30px 60px 40px;
+    width: 90%;
+    min-height: 600px;
+    background-color: #fff;
+}
+
+.blockchain-details h3 {
+    margin: 0;
+    padding-bottom: 15px;
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1px solid #ddd;
+}
+
+.content-header{
+	width: 100%;
+	padding: 20px 0 0;
+}
+
+.content-header h2{
+	font-size: 16px;
+	padding: 0 0 15px;
+    /*border-bottom: 1px solid #ddd;*/
+}
+
+.content-left{
+	width:30%;
+	float:left;
+	box-sizing:border-box;
+}
+
+.content-left p{
+	font-size: 14px;
+    padding: 10px 20px;
+}
+
+.content-right{
+    width: 70%;
+    float: right;
+    box-sizing: border-box;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #eee;
+    min-height: 200px;
+    display: block;
+
+}
+
+.content-right p{
+	font-size: 14px;
+    padding: 10px 17px;
+}
+
+.hr-class{
+    color: #eee;
+}
+
+.blockdetailinfo{
+    height: 50%;
+    margin: 15px 0 0 0;
+    width: 100%;
+    border: 1px #f7f7f7;
+    text-align: center;
+    line-height: 35px;
+    font-size: 14px;
+}
+
+.blockdetailinfo .block-detail-header{
+    background-color: #3498db;
+    color: #fff;
+}
+
+table tr:nth-child(odd){
+    background:#f7f7f7;
+}

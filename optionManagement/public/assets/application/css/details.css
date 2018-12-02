@@ -1,0 +1,149 @@
+body {
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+
+/* 容器公用部分开始 */
+h3 a{
+    color: #999;
+}
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    /*width: 1200px;*/
+    width: 1024px;
+    font-size: 14px;
+}
+
+.sidebar {
+    width: 290px;
+    min-height: 600px;
+    background-color: #fff;
+}
+
+.certificate-details {
+    padding: 30px 20px 40px;
+    /*width: 830px;*/
+    width: 695px;
+    min-height: 600px;
+    background-color: #fff;
+}
+
+
+/* 容器公用部分结束 */
+
+.certificate-details h3 {
+    margin: 0;
+    padding-bottom: 15px;
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1px solid #ddd;
+}
+
+.certificate-details .items {
+    padding: 30px 0 30px 15px;
+    font-size: 14px;
+    color: #999
+}
+
+.certificate-details .items:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+
+.certificate-details .items .title {
+    padding-left: 4px;
+    font-size: 18px;
+    border-left: 4px solid #2abd2a;
+}
+
+.certificate-details .items .item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0 5px 45px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.certificate-details .items .item .left-text {
+    display: flex;
+    justify-content: space-between;
+    width: 380px;
+    overflow: hidden;
+}
+
+.certificate-details .items .item .left-text .f16 {
+  font-size: 16px;
+  color: #333;
+}
+
+.certificate-details .items .item .right-text {
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+}
+
+.certificate-details .items .item .right-text .certify-logo {
+  display: flex;
+}
+
+.certificate-details .items .item .right-text .certify-logo span {
+  padding-left: 30px;
+  color: #3d81f2;
+}
+
+.certificate-details .items .item .right-text button {
+  margin-left: 8px;
+  width: 44px;
+  height: 20px;
+  color: #fff;
+  outline: none;
+  border: none;
+  background-color: #3d81f2;
+}
+
+.certificate-details .btns {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto 0;
+    width: 320px;
+}
+
+.certificate-details .btns button {
+  width: 120px;
+  height: 36px;
+  font-size: 16px;
+  color: #fff;
+  outline: none;
+  border: none;
+  background-color: #3d81f2;
+}
+
+.certificate-details .btns .default {
+    background-color: #ccc;
+}
+
+.certificate-details .item .account .user,
+.certificate-details .item .account .company,
+.certificate-details .item .account .organization {
+  width: 90px;
+  height: 28px;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  background-color: #edb0b7;
+}
+
+.certificate-details .item .account .other {
+  width: 90px;
+  height: 28px;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  background-color: #eee;
+}
+

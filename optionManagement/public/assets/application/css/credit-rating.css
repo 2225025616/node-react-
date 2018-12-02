@@ -1,0 +1,167 @@
+body {
+  color: #333;
+  background-color: #f7f7f7;
+  font-weight: normal;
+}
+
+.main-content-2 .main-container {
+  margin: 0 auto;
+  font-size: 14px;
+  background-color: #fff;
+  margin-top: 20px;
+  min-height: 500px;
+  padding-bottom: 50px;
+}
+
+.main-content-2 .main-container .title {
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  margin: 0px auto;
+  height: 50px;
+  /*padding-bottom: 20px;*/
+}
+
+.main-content-2 .main-container h3 {
+  text-align: center;
+  line-height: 50px;
+  font-weight: normal;
+}
+
+.main-content-2 .main-container .credit-rating{
+  width: 600px;
+  margin: 0px auto;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.main-content-2 .main-container .credit-rating .credit-icon{
+  text-align: center;
+}
+
+.main-content-2 .main-container .credit-rating .credit-icon img{
+  text-align: center;
+  max-width: 282px;
+  max-height: 182px;
+}
+
+.main-content-2 .main-container .credit-rating .levels{
+  width: 290px;
+  margin: 0px auto;
+  display: flex;
+  margin-top: 40px;
+  font-size: 16px;
+  color: #999999;
+}
+
+.main-content-2 .main-container .credit-rating .levels .level{
+  margin-left: 35px;
+}
+
+.main-content-2 .main-container .credit-rating .level-icon{
+  display: flex;
+  width: 570px;
+  margin: 0px auto;
+  margin-top: 20px;
+  color: #999;
+}
+
+.main-content-2 .main-container .credit-rating .level-icon .line{
+  line-height: 30px;
+}
+
+.main-content-2 .main-container .credit-rating .level-icon .line img{
+  width: 42.5px;
+}
+
+.main-content-2 .main-container .credit-rating .level-icon .arrived-part img{
+  width: 42.5px;
+}
+
+.main-content-2 .main-container .credit-rating .level-icon .top{
+  margin-top: 2px;
+}
+
+.main-content-2 .main-container .credit-rating .level-icon .active{
+  color: #b28850;
+}
+
+.main-content-2 .main-container .credit-icon-content{
+  height: 165px;
+  margin-top: -140px;
+}
+
+.main-content-2 .main-container .credit-icon-content .score-value{
+  color:#d62c36;
+  font-size: 48px;
+}
+
+.main-content-2 .main-container .credit-icon-content .level-value{
+  color: #fff;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.main-content-2 .main-container .credit-rating .buttons{
+  display: flex;
+  width: 410px;
+  height: 35px;
+  margin: 0px auto;
+  margin-top: 45px;
+}
+
+.main-content-2 .main-container .credit-rating .buttons button{
+  width: 150px;
+  height: 35px;
+  background-color: #fff;
+  border: 1px solid #3d8efc;
+  color: #3d8efc;
+  margin: 0 25px;
+  outline: none;
+}
+
+.main-content-2 .main-container .increse-credit-rating{
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+.main-content-2 .main-container .increse-credit-rating .field{
+  text-align: left;
+  border-left: 3px solid #3d8efc;
+}
+
+.main-content-2 .main-container .increse-credit-rating .field span{
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.increse-credit-rating .table{
+  margin-top: 20px;
+}
+
+.increse-credit-rating .table .rows{
+  display: flex;
+  height: 50px;
+  line-height: 50px;
+}
+
+.increse-credit-rating .table .rows .rows-title{
+  width: 220px;
+  height: 50px;
+  border:1px solid #eee;
+  background-color: #ebf7fd;
+  text-align: center;
+}
+
+.increse-credit-rating .table .rows .content{
+  width: 670px;
+  height: 50px;
+  text-align: right;
+  border:1px solid #eee;
+  padding: 0px 10px;
+}
+
+.increse-credit-rating .table .rows .content a{
+  margin-left: 40px;
+  color: #3d8efc;
+}
+

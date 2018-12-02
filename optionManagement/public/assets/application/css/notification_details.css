@@ -1,0 +1,88 @@
+body {
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+
+/* 容器公用部分开始 */
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    /*width: 1200px;*/
+    width: 1024px;
+    font-size: 14px;
+}
+
+.sidebar {
+    width: 290px;
+    min-height: 600px;
+    background-color: #fff;
+}
+
+.notification-details {
+    /*padding: 30px 20px 40px;*/
+    padding: 20px 20px 40px;
+    width: 830px;
+    min-height: 600px;
+    background-color: #fff;
+}
+
+.notification-details h3 {
+    margin: 0;
+    padding-bottom: 15px;
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1px solid #ddd;
+}
+
+.notification-details .subhead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10px 0;
+    padding-right: 20px;
+    height: 48px;
+    color: #999;
+    background-color: #eee;
+}
+
+.notification-details .subhead .type {
+    display: flex;
+}
+
+.notification-details .subhead .type p {
+    margin: 0 20px;
+    padding: 12px 4px;
+    color: #333;
+    font-size: 16px;
+    border-bottom: 2px solid #408bfc;
+}
+
+.notification-details .content {
+    margin: 20px;
+    font-size: 14px;
+}
+
+.notification-details .content .title {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.notification-details .content .text {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    min-height: 200px;
+    border: 1px solid #ddd;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+}
+
+.notification-details .content .text .notification-type {
+    align-self: flex-end;
+}

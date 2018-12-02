@@ -1,0 +1,143 @@
+body {
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+
+/* 容器公用部分开始 */
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    /*width: 1200px;*/
+    width: 1024px;
+    font-size: 14px;
+}
+
+.sidebar {
+    width: 290px;
+    min-height: 600px;
+    background-color: #fff;
+}
+
+.account-certify {
+    /*padding: 30px 20px 40px;*/
+    padding: 20px 20px 40px;
+    width: 830px;
+    min-height: 600px;
+    background-color: #fff;
+}
+
+.hash-style{
+    width:222px;
+    word-wrap: break-word; 
+    word-break: normal; 
+    /*overflow:scroll;*/
+    color: rgb(0, 145, 234);
+}
+
+
+/* 容器公用部分结束 */
+
+.account-certify h3 {
+    margin: 0;
+    padding-bottom: 15px;
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1px solid #ddd;
+}
+
+.account-certify button {
+    color: #fff;
+    outline: none;
+    border: none;
+    background-color: #408bfc;
+}
+
+.account-certify .items .items-head {
+    display: flex;
+    padding: 20px 0 0 20px;
+}
+
+.account-certify .items .items-head p {
+    margin: 0 -1px 0 0;
+    width: 158px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
+
+.account-certify .items .items-head .active {
+    display: block;
+    color: #fff;
+    background-color: #408bfc;
+}
+
+.account-certify .items .items-content {
+    display: none;
+    justify-content: space-between;
+    padding: 20px 50px 40px;
+    font-size: 16px;
+}
+
+.account-certify .items .active {
+    display: flex;
+}
+
+.account-certify .items .items-content .entry {
+    display: flex;
+    justify-content: space-between;
+    line-height: 36px;
+    margin: 40px 0;
+}
+
+.account-certify .items .items-content .entry input {
+    /*margin-left: 15px;*/
+    padding: 0 10px;
+    /*width: 290px;*/
+    width: 200px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+.account-certify .items .items-content .entry span {
+    width: 90px;
+}
+
+.account-certify .items .items-content .submit {
+    margin-top: 50px;
+    margin-left: calc(50% - 60px);
+    width: 120px;
+    height: 36px;
+    font-size: 16px;
+}
+
+.account-certify .items .items-content .note {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    /*width: 300px;*/
+    width: 260px;
+    margin-left: 20px;
+}
+
+.account-certify .items .items-content .note .color {
+    color: #999;
+    font-size: 14px;
+    margin: 0 0 40px;
+    align-self: flex-end;
+}
+
+.account-certify .items .items-content .note button {
+    align-self: flex-end;
+    width: 88px;
+    height: 28px;
+}

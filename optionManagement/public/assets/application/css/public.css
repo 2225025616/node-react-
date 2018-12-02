@@ -1,0 +1,172 @@
+a {
+  text-decoration: none;
+  color:#000000;
+  cursor: pointer;
+}
+
+button{
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+h3 a{
+    color: #999;
+}
+
+
+/* 顶部title公用 */
+.main-container-title{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.main-container-title h3 a{
+  font-size: 14px;
+  color: #666;
+  font-weight: normal;
+}
+
+.main-container-title h3{
+  color: #333;
+  font-weight: normal;
+  font-size: 14px;
+}
+/* 顶部title公用 end */
+
+
+.containers{
+  width: 100%;
+  margin-top: 40px;
+}
+
+.containers .container{
+  margin: 0px auto;
+  width: 1200px;
+  display: flex;
+  min-height: 500px;
+  margin-bottom: 20px;
+}
+
+.containers .container .left-bar{
+  width: 210px;
+  min-height: 400px;
+  height: 600px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  /*border:1px solid #eee;*/
+}
+
+.containers .container .main-content{
+  margin-left: 20px;
+  width: 950px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  /*border:1px solid #eee;*/
+}
+
+.containers .container .main-content-2{
+  margin-left: 20px;
+}
+
+
+.hr-class{
+  opacity: 0.2
+}
+
+.a_class{
+  cursor: pointer;
+}
+
+.display{
+  display: none;
+}
+
+.comment a:hover { 
+  color: rgb(61,129,242);
+}
+
+.content_wrapper{
+  margin-top: 72px;
+}
+
+.left{
+  margin-left: 38px;
+}
+
+.icon-notification{
+  position: relative;
+  top: 6px;
+  margin-right: 13px;
+  cursor: pointer;
+  width: 14px;
+  padding: 0px;
+  padding-left: 77px;
+}
+
+.notification-logo{
+  /* width: 16px; */
+  position: relative;
+  /* height: 16px; */
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  color: #f00;
+  text-decoration: none;
+  top: -8px;
+  right: 22px;
+}
+
+#tooltip{
+    background:rgb(0, 145, 234);
+    color:#fff;
+    text-align:center;
+    margin-right:10px;
+    position:absolute;
+    z-index:9999;
+    display:none;
+    box-shadow:0 0 5px #666;
+    border:1px dashed #FFF;
+    padding:5px;
+    font-size:12px;
+  }
+
+.my-alert{
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(0, 145, 234);
+  opacity: 0.8;
+  top: 72px;
+  z-index: 100;
+}
+
+.my-alert .alert{
+  width: 500px;
+  line-height: 80px;
+  color: #fff;
+  margin: 0px auto;
+}
+
+.my-alert .alert .message{
+  font-size: 16px;
+  text-align: center;
+}
+
+.my-alert .close{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  left: 90%;
+  top: 15px;
+}
+
+
+.my-alert .close img{
+  width: 20px;
+  height: 20px;
+}

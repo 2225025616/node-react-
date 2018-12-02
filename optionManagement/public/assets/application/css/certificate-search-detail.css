@@ -1,0 +1,152 @@
+
+body {
+    color: #333;
+    background-color: #f7f7f7;
+    min-width: 1180px;
+    font-weight: normal;
+}
+
+.main-container {
+    margin: 0 auto;
+    width: 1200px;
+    font-size: 14px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.certificate-info{
+  width: 1200px;
+  margin: 0px auto;
+  padding-top: 30px;
+}
+
+.info-title{
+  border-left: 3px solid #3d8efc;
+  margin-left: 30px;
+}
+
+.info-title span{
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.certificate-info .info-img{
+  width: 325px;
+  height: 455px;
+  margin: 0px auto;
+  margin-top: 40px;
+}
+
+.certificate-info .info-img img{
+  width: 325px;
+  height: 455px;
+  margin: 0px auto;
+}
+
+.certificate-details {
+    margin-top: 80px;
+    background-color: #fff;
+}
+
+.certificate-details .certificate-detail{
+  margin-top: 55px;
+}
+
+.certificate-details .certificate-detail .table{
+  width: 1200px;
+  margin: 0px auto;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.certificate-details .certificate-detail .table .rows{
+  display: flex;
+  height: 50px;
+  line-height: 50px;
+}
+
+.certificate-details .certificate-detail .table .rows .rows-title{
+  width: 225px;
+  height: 50px;
+  border:1px solid #eee;
+  background-color: #ebf7fd;
+  text-align: center;
+}
+
+.certificate-details .certificate-detail .table .rows .content{
+  width: 275px;
+  height: 50px;
+  text-align: center;
+  border:1px solid #eee;
+  padding: 0px 10px;
+}
+
+.certificate-details .certificate-detail .table .rows .content img{
+  max-height: 40px;
+  max-width: 50px;
+  margin: 5px 0px;
+}
+
+.table .rows .content button{
+  width: 90px;
+  height: 35px;
+  color: #fff;
+  outline: none;
+  border: none;
+  background-color: #3d81f2;
+  margin: 0px 10px;
+}
+
+.table .rows .content .a_class{
+  color: #3d81f2;
+}
+
+.table .rows .content .validate-disabled{
+  background-color: #999;
+}
+
+.table .rows .content .question-disabled{
+  background-color: #999;
+  color: #fff;
+  border: 0px;
+}
+
+.table .rows .content .question-button{
+  color: #3d81f2;
+  outline: none;
+  border: 1px solid #3d81f2;
+  background-color: #fff;
+}
+
+.certificate-details .certificate-detail .table .rows .content a{
+  /*margin-left: 40px;*/
+  color: #3d8efc;
+}
+
+.certificate-details .certificate-detail .table .rows .content span{
+  color: #666;
+}
+
+.baoquan-certify{
+  float: right;
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.baoquan-certify .bq-certify-img{
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.qrcode{
+  position: absolute;
+  z-index: 20;
+  left: 0px;
+}
+
+.qrcode img{
+  width: 100px;
+  height: 100px;
+}

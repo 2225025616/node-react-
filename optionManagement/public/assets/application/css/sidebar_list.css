@@ -1,0 +1,197 @@
+body {
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+
+/* 容器公用部分开始 */
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    /*width: 1200px;*/
+    width: 1024px;
+    font-size: 14px;
+}
+
+/* sidebar code start */
+
+.sidebar {
+  padding: 40px 15px 0;
+  margin: 0 20px 0 0px;
+  width: 240px;
+  min-height: 600px;
+  background-color: #fff;
+}
+
+.sidebar button {
+  outline: none;
+  color: #fff;
+  border: none;
+  background-color: #408bfc;
+}
+
+.sidebar .user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.sidebar .user-info img {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+}
+
+.sidebar .icons {
+  display: flex;
+}
+
+.sidebar .icons img {
+  margin: 16px 8px;
+  width: 28px;
+  height: 20px;
+}
+
+.sidebar .balance {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar .balance button {
+  width: 68px;
+  height: 32px;
+  font-size: 14px;
+}
+
+.sidebar hr {
+      margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.sidebar .item {
+  padding-bottom: 20px;
+}
+
+.sidebar .item h4 {
+  margin: 0;
+line-height: 35px;
+color: #999;
+font-size: 14px;
+font-weight: 400;
+}
+
+.sidebar .item p {
+  display: flex;
+  margin-top: 0;
+  padding: 8px 0;
+}
+
+.sidebar .item p img {
+  margin: 0 16px 0 8px;
+}
+
+.sidebar .item .active {
+  background-color: #eee;
+}
+
+.sidebar .apply {
+  margin-bottom: 70px;
+  width: 240px;
+  height: 38px;
+}
+
+/* sidebar code end */
+
+.notification-list {
+    /*padding: 30px 20px 40px;*/
+    padding: 20px 20px 40px;
+    width: 830px;
+    min-height: 600px;
+    background-color: #fff;
+}
+
+.notification-list h3 {
+    margin: 0;
+    padding-bottom: 15px;
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1px solid #ddd;
+}
+
+.notification-list .subhead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10px 0;
+    padding-right: 20px;
+    height: 48px;
+    color: #999;
+    background-color: #eee;
+}
+
+.notification-list .subhead .type {
+    display: flex;
+}
+
+.notification-list .subhead .type p {
+    margin: 0 20px;
+    padding: 12px 4px;
+    color: #333;
+    font-size: 16px;
+}
+
+.notification-list .subhead .type .active {
+    border-bottom: 2px solid #408bfc;
+}
+
+.notification-list .subhead span {
+    padding: 0 10px;
+}
+
+.notification-list .items {
+    margin: 10px;
+}
+
+.notification-list .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 36px;
+}
+
+.notification-list .read {
+    color: #999;
+}
+
+.blockchain{
+  padding: 10px 2px;
+  margin: 20px 0;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.item .blockchain p{
+  display: flex;
+  width: 100%;
+  margin-top: 0;
+  padding: 8px 8px;
+}
+
+.item .blockchain .blockchain-title{
+  width: 50px;
+}
+
+
+.item .blockchain .blockchain-content{
+  margin-left: 2px;
+}
+
+.top-bar{
+  
+}

@@ -1,0 +1,120 @@
+body {
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+
+/* 容器公用部分开始 */
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1200px;
+    /*width: 1024px;*/
+    font-size: 14px;
+}
+
+.sidebar {
+    width: 290px;
+    min-height: 600px;
+    background-color: #fff;
+}
+
+.certificate-validate {
+    padding: 10px 20px 40px;
+    width: 830px;
+    min-height: 600px;
+    background-color: #fff;
+}
+
+
+/* 容器公用部分结束 */
+
+.certificate-validate h3 {
+    margin: 0;
+    padding-bottom: 15px;
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1px solid #ddd;
+}
+
+.certificate-validate .title {
+    margin: 20px 10px;
+    padding-left: 4px;
+    font-size: 18px;
+    border-left: 3px solid #3d8efc;
+}
+
+.certificate-validate .title span {
+  margin-left: 10px;
+}
+
+.certificate-validate .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10px;
+  padding: 6px 0;
+  height: 48px;
+  font-size: 14px;
+}
+
+.certificate-validate .subhead {
+  padding: 0;
+  font-size: 16px;
+  background-color: #ebf7fd;
+}
+
+.certificate-validate .item p {
+  margin: 0;
+  width: 25%;
+  text-align: center;
+}
+
+.certificate-validate .item .account {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+}
+
+.certificate-validate .item .account .user,
+.certificate-validate .item .account .company,
+.certificate-validate .item .account .organization {
+  width: 90px;
+  height: 28px;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  background-color: #edb0b7;
+}
+
+.certificate-validate .item .account .other {
+  width: 90px;
+  height: 28px;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  background-color: #eee;
+}
+
+.certificate-validate .item .account .company {
+  background-color: #cccde2;
+}
+
+.certificate-validate .item .account .organization {
+  background-color: #f7d08b;
+}
+
+.certificate-validate .item .picture {
+  width: 25%;
+  text-align: center;
+}
+
+.certificate-validate .item .account p {
+  width: 50%;
+}

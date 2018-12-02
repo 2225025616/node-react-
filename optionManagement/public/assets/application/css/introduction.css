@@ -1,0 +1,68 @@
+body {
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+
+/* 容器公用部分开始 */
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    /*width: 1200px;*/
+    width: 1024px;
+    font-size: 14px;
+}
+
+.sidebar {
+    width: 290px;
+    min-height: 600px;
+    background-color: #fff;
+}
+
+.certificate-details {
+    /*padding: 30px 20px 40px;*/
+    width: 830px;
+    min-height: 600px;
+    background-color: #fff;
+}
+
+
+/* 容器公用部分结束 */
+
+.certificate-details h3 {
+    margin: 20px 20px;
+    padding: 0px 0 15px;
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1px solid #ddd;
+}
+
+.certificate-details .items {
+    /*padding: 30px 0 125px 15px;*/
+    padding: 0 30px 125px;
+    font-size: 14px;
+    color: #999
+}
+
+.certificate-details .items:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+
+.certificate-details .items .title {
+    padding-left: 4px;
+    font-size: 18px;
+    border-left: 4px solid #2abd2a;
+}
+
+.certificate-details .items .item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0 5px;
+    line-height: 32px;
+}
+
+
+

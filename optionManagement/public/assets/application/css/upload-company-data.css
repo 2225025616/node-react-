@@ -1,0 +1,509 @@
+
+.main-content-2 .credit_rating_cate{
+  margin-top: 20px;
+  width: 950px;
+  min-height: 400px;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.main-content-2 .credit_rating_cate .categorys{
+  display: flex;
+  border-bottom: 1px solid #e4ecf2;
+  padding: 10px 0px 0px;
+  overflow:hidden;
+  width: 955px;
+}
+
+.main-content-2 .credit_rating_cate .categorys .category{
+  margin-left: 30px;
+  color: #6d7d90;
+  font-size: 14px;
+  font-weight: lighter;
+  height: 35px;
+  cursor: pointer;
+}
+
+.main-content-2 .credit_rating_cate .categorys .category:hover{
+  color: #3d8efc;
+  border-bottom: 2px solid #3d8efc;
+}
+
+.main-content-2 .credit_rating_cate .categorys .active{
+  color: #3d8efc;
+  border-bottom: 2px solid #3d8efc;
+}
+
+
+.main-content-2 .credit_rating_cate .form-contents{
+  width: 100%;
+  margin-top: 70px;
+}
+
+.main-content-2 .credit_rating_cate .form-contents .form-content{
+  width: 650px;
+  margin: 0px auto;
+}
+
+.main-content-2 .credit_rating_cate .form-contents .form-content .item {
+  display: flex;
+  /*align-items: center;*/
+  padding: 15px 0 15px;
+  height: 36px;
+  /*width: 600px;*/
+  width: 640px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.main-content-2 .credit_rating_cate .form-contents .form-content .other-item .img-class{
+    /*margin-left: 10px;*/
+}
+
+.main-content-2 .credit_rating_cate .form-contents .form-content .other-item {
+  /*padding: 15px 0 15px;*/
+  width: 600px;
+  /*width: 525px;*/
+  font-size: 14px;
+}
+
+.main-content-2 .credit_rating_cate .form-contents .form-content .other-item .content{
+  display: flex;
+}
+
+.main-content-2 .credit_rating_cate .form-contents .form-content .other-item .notice {
+  display: block;
+  /* width: 355px; */
+  width: 330px;
+  /*height: 130px;*/
+  font-size: 12px;
+  margin-top: 10px;
+  margin-left: 170px;
+  background-color: #f5f5f5;
+  padding: 20px 20px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.main-content-2 .credit_rating_cate .form-contents .form-content .other-item .img-class{
+    /*margin-left: 10px;*/
+    width: 60px;
+}
+
+.main-content-2 .credit_rating_cate .form-contents .form-content .other-item .other-notice{
+  display: block;
+  margin-top: -60px;
+}
+
+.main-content-2 .credit_rating_cate .form-contents .form-content .other-item .demo {
+  color: rgb(0, 145, 234);
+  font-size: 12px;
+  margin-left: 280px;
+  width: 115px;
+  /*height: 60px;*/
+  cursor: pointer;
+}
+
+.main-content-2 .credit_rating_cate .form-contents .form-content .other-item .download_testify_demo{
+  color: rgb(0, 145, 234);
+  font-size: 12px;
+  margin-left: 300px;
+  width: 115px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.main-content-2 .credit_rating_cate .form-contents .form-content .item span{
+  width: 150px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.main-content-2 .credit_rating_cate .form-contents .form-content .other-item span {
+  width: 150px;
+  text-align: right;
+  margin-right: 20px;
+  /*margin-left: -10px;*/
+}
+
+.other-item .img-groups{
+  display: block;
+}
+
+.other-item .img-groups .img-group{
+  display: flex;
+  height: 60px;
+  margin-bottom: 20px;
+}
+.other-item .img-groups .img-group-ext{
+  margin-bottom: 20px;
+}
+
+.other-item .img-groups .img-group .input-class input {
+  height: 30px;
+  width: 200px;
+  /* outline: none; */
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-left: 20px;
+  /*margin-top: 15px;*/
+}
+
+.main-content-2 .credit_rating_cate .form-contents .form-content .item select{
+  height: 40px;
+  /*width: 425px;*/
+  width: 370px;
+  /*outline: none;*/
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.main-content-2 .credit_rating_cate .form-contents .form-content .item input {
+  height: 40px;
+  /*width: 405px;*/
+  width: 350px;
+  /*outline: none;*/
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.main-content-2 .credit_rating_cate .form-contents .form-content button{
+  align-self: flex-end;
+  width: 150px;
+  height: 30px;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  background-color: #408bfc;
+  margin: 20px auto;
+  margin-left: 230px;
+}
+
+.main-content-2 .credit_rating_cate .form-contents .form-content .item .refuesd-input {
+  border: 1px solid #de282e;
+  outline: none;
+}
+
+.main-content-2 .credit_rating_cate .form-contents .other-message{
+  color: #de282e;
+  float: right;
+  /*margin-top: -40px;*/
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: left;
+  width: 56px;
+  height: 25px;
+}
+
+.main-content-2 .credit_rating_cate .form-contents .other-message-2{
+  color: #de282e;
+  float: right;
+  margin-top: 10px;
+  margin-left: 250px;
+  text-align: left;
+  width: 56px;
+  height: 25px;
+}
+
+
+.main-content-2 .credit_rating_cate .form-contents .other-message-doing{
+  color: #c1bbbb;
+  float: right;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: left;
+  width: 56px;
+  height: 25px;
+}
+
+.main-content-2 .credit_rating_cate .form-contents .other-message-doing-2{
+  color: #c1bbbb;
+  float: right;
+  margin-top: 10px;
+  margin-left: 250px;
+  text-align: left;
+  width: 56px;
+  height: 25px;
+}
+
+.main-content-2 .credit_rating_cate .form-contents .other-message-done{
+  color: #408bfc;
+  float: right;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: left;
+  width: 56px;
+  height: 25px;
+}
+
+.main-content-2 .credit_rating_cate .form-contents .other-message-done-2{
+  color: #408bfc;
+  float: right;
+  margin-top: 10px;
+  margin-left: 250px;
+  text-align: left;
+  width: 56px;
+  height: 25px;
+}
+
+.main-content-2 .credit_rating_cate .form-contents .other-button button{
+  align-self: flex-end;
+  width: 150px;
+  height: 30px;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  background-color: #408bfc;
+  margin: 10px auto;
+}
+
+
+.main-content-2 .credit_rating_cate .form-contents .other-button .apply{
+  width: 150px;
+  margin-left: 60px;
+}
+
+.main-content-2 .credit_rating_cate .form-contents .other-button .group{
+  display: flex;
+  margin-left: 25px;
+}
+
+
+
+.main-content-2 .credit_rating_cate .form-contents .other-button .apply span{
+  color: #408bfc;
+  cursor: pointer;
+}
+
+.main-content-2 .credit_rating_cate .form-contents .my-hr{
+  border-style: dashed;
+  border-width: 1px;
+  border-color: #eee;
+  margin: 10px 0 20px;
+  width: 100%;
+}
+
+.main-content-2 .blockchain{
+  margin-top: 35px;
+}
+
+.main-content-2 .blockchain .table-head{
+  display: flex;
+}
+
+.main-content-2 .blockchain .table-head .title{
+  width: 200px;
+  height: 40px;
+}
+
+.main-content-2 .blockchain .table-head .select{
+  margin-left: 550px;
+}
+
+.main-content-2 .blockchain select{
+  height: 40px;
+  width: 215px;
+  /*outline: none;*/
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.main-content-2 .blockchain .table-body{
+  width: 950px;
+  background-color: #fff;
+  margin: 0px auto;
+  margin-top: 20px;
+}
+
+.main-content-2 .blockchain .table-body table{
+  margin:0px auto;
+  font-size:14px;
+  line-height:40px;
+  width:100%;
+  text-align: center;
+}
+
+.main-content-2 .blockchain .table-body .body-header{
+  background-color: #3d8efc;
+  color: #fff;
+}
+
+.main-content-2 .blockchain .table-body .body-header th{
+  width: 25%;
+  height: 40px;
+}
+
+.main-content-2 .blockchain .table-body .body-header td{
+  height: 40px;
+}
+
+.main-content-2 .blockchain .table-body .active{
+  color: #3d8efc;
+}
+
+.main-content-2 .form-contents .form-content .more{
+  display: flex;
+  width: 200px;
+  margin: 0px auto;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.main-content-2 .form-contents .form-content .more .content{
+  color: #3d81f2;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.main-content-2 .form-contents .form-content .more img{
+  width: 16px;
+  height: 16px;
+  margin-top: 2px;
+}
+
+.form-contents img{
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.background{
+  position: absolute;
+  width: 100%;
+  height: 250%;
+  -moz-opacity: 0.8;
+  opacity: 0.5;
+  filter: alpha(opacity=80);
+  background-color: #000;
+  top: 0px;
+  z-index: 100;
+}
+
+.apply-content{
+  width: 670px;
+  height: 495px;
+  background-color: #eee;
+  position: absolute;
+  top: 540px;
+  left: 33%;
+  z-index: 101;
+  border-radius: 5px;
+}
+
+.apply-content .header{
+  position: relative;
+  width: 100%;
+  height: 77px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+}
+
+.apply-content .header .title{
+  position: relative;
+  width: 440px;
+  line-height: 77px;
+  margin: 0px auto;
+  text-align: right;
+}
+
+.apply-content .header .close{
+  position: relative;
+  margin-left: 200px;
+  width: 30px;
+  height: 30px;
+  text-align: right;
+  padding-right: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.apply-content .body{
+  position: relative;
+  width: 100%;
+  height: 345px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.apply-content .body .form-control{
+  display: flex;
+  position: relative;
+  width: 505px;
+  height: 40px;
+  margin: 0px auto;
+  padding: 22px 0;
+}
+
+.apply-content .body .first{
+  padding-top: 55px;
+}
+
+.apply-content .body .form-control .form-title{
+  width: 80px;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: right;
+}
+
+.apply-content .body .form-control .form-input{
+  height: 40px;
+  width: 405px;
+}
+
+.apply-content .body .form-control .form-input input{
+  height: 40px;
+  width: 405px;
+  /* outline: none; */
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-left: 30px;
+}
+
+.apply-content .body .form-control button{
+  position: relative;
+  align-self: flex-end;
+  width: 150px;
+  height: 33px;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  background-color: #408bfc;
+  margin-left: 200px;
+}
+
+.apply-content .form-footer{
+  position: relative;
+  width: 100%;
+  height: 70px;
+}
+
+.apply-content .form-footer .content{
+  position: relative;
+  margin: 0px auto;
+  font-size: 12px;
+  color: #1d8dfb;
+  text-align: center;
+  line-height: 70px;
+}
+
+.tags {
+  width: 0px;
+  height: 0px;
+  margin-left: 150px;
+  margin-top: -25px;
+}
+
+.tags img{
+  max-width: 13px;
+  max-height: 13px;
+}

@@ -1,0 +1,99 @@
+body {
+    color: #333;
+    background-color: #f7f7f7;
+    min-width: 1180px;
+    font-weight: normal;
+}
+
+.highcharts{
+  min-width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.main-container {
+    margin: 0 auto;
+    width: 1200px;
+    font-size: 14px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.underline {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0 40px;
+}
+
+.main-container .container{
+  width: 1200px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.main-container .container .content{
+  width: 900px;
+  margin: 0px auto;
+  text-align: left;
+  line-height: 30px;
+  font-size: 16px;
+  color: #666;
+  font-weight: normal;
+}
+
+.main-container .container .table{
+  width: 1075px;
+  margin: 0px auto;
+  margin-bottom: 50px;
+}
+
+.main-container .container .table .title,
+.main-container .container .table .contents .content{
+  height: 50px;
+}
+
+.main-container .container .table .title{
+  text-align: left;
+  background-color: #e9f7fd;
+  line-height: 50px;
+  font-size: 16px;
+  padding-left: 35px;
+  border: 1px solid #e5e5e5;
+  font-weight: bold;
+}
+
+.main-container .container .table .contents .content{
+  width: 100%;
+  display: flex;
+}
+
+.main-container .container .table .contents .content .content-title,
+.main-container .container .table .contents .content .content-value{
+  border: 1px solid #e5e5e5;
+  font-size: 14px;
+  color: #333333;
+}
+
+.main-container .container .table .contents .content .content-title{
+  width: 115px;
+  line-height: 50px;
+  padding-left: 35px;
+}
+
+.main-container .container .table .contents .content .content-value{
+  width: 930px;
+  line-height: 50px;
+  padding-left: 45px;
+}
+
+.main-container .container .table .contents .content .active-green{
+  color: #60bc41;
+}
+
+.main-container .container .table .contents .content .active-red{
+  color: #ea2c2c;
+}
+
+

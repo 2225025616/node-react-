@@ -1,0 +1,34 @@
+.main-container .container .hash-box{
+    margin: 0 auto;
+    width: 289px;
+    height: 175px;
+    margin-top: 60px;
+    margin-bottom: 45px;
+}
+
+.main-container .container .hash-box img{
+    width: 289px;
+    height: 175px;
+}
+
+.main-container .container .hash-content{
+    word-wrap: break-word;
+    width: 185px;
+    height: 0px;
+    margin: 0 auto;
+    top: -144px;
+    position: relative;
+}
+
+.main-container .container .hash-content span{
+    color: #df611d;
+}
+
+.main-container .container .hash-content .hash-title{
+	padding-bottom: 10px;
+	margin-left: -15px;
+}
+
+.main-container .container .hash-content .hash-title span{
+	color: #000;
+}

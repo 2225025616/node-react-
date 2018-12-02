@@ -1,0 +1,374 @@
+body {
+  color: #333;
+  background-color: #f7f7f7;
+}
+
+.jquery-qrcode{
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  position: absolute;
+  margin: 0px auto;
+  border:1px solid #eee;
+  border-radius: 5px;
+  box-shadow: 6px 6px 15px #888888;
+}
+
+.jquery-qrcode .qrcode-title{
+  font-size: 12px;
+  text-align: center;
+  color: #999;
+  margin-top: 5px;
+}
+
+.jquery-qrcode #qrcode{
+  width: 100px;
+  margin: 0px auto;
+  margin-top: 15px;
+}
+
+.jquery-qrcode .qrcode-tags{
+  width: 150px;
+  margin: 0px auto;
+  font-size: 12px;
+  text-align: center;
+  color: #999;
+  margin-top: 5px;
+}
+
+/* 容器公用部分开始 */
+
+.main-container {
+  margin: 0 auto;
+  font-size: 14px;
+  background-color: #fff;
+  margin-top: 20px;
+  min-height: 500px;
+  padding-bottom: 50px;
+}
+
+.main-content-2 .main-container .title {
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  margin: 0px auto;
+  height: 50px;
+  /*padding-bottom: 20px;*/
+}
+
+.main-content-2 .main-container h3 {
+  text-align: center;
+  line-height: 50px;
+  font-weight: normal;
+}
+
+.main-container .certificate{
+  width: 575px;
+  margin: 0px auto;
+}
+
+.main-container .certificate .certificate-img{
+  margin: 0px auto;
+  margin-top: 50px; 
+  width: 575px;
+  min-height: 810px;
+  border:10px solid #28334f;
+  padding-bottom: 10px;
+}
+
+.main-container .certificate .certificate-img .border-2{
+  margin: 0px auto;
+  margin-top: 10px;
+  width: 550px;
+  min-height: 785px;
+  border:1px dashed #28334f;
+  padding-bottom: 10px;
+}
+
+.main-container .certificate .certificate-img .border-3{
+  margin: 0px auto;
+  margin-top: 10px;
+  width: 530px;
+  min-height: 755px;
+  border:5px solid #28334f;
+  padding-bottom: 20px;
+}
+
+.main-container .certificate .certificate-img img{
+  max-width: 575px;
+  max-height: 810px;
+}
+
+.certificate-img .certificate-title{
+  width: 430px;
+  margin: 0px auto;
+  margin-top: 25px;
+}
+
+.certificate-img .certificate-title img{
+  max-width: 430px;
+  max-height: 23px;
+}
+
+.certificate-img .certificate-no{
+  display: flex;
+  margin: 0px auto;
+  width: 220px;
+  font-size: 12px;
+  color: #757576;
+  margin-top: 10px;
+}
+
+.certificate-img .certificate-no .no-title{
+  width: 195px;
+}
+
+.certificate-img .certificate-no span{
+  color: #53b5f1;
+  margin-left: 5px;
+}
+
+.certificate-img .certificate-no .share{
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.certificate-img .certificate-no .share img{
+  max-width: 10px;
+  max-height: 10px;
+}
+
+.certificate-img .certified-logo{
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  margin-left: 397px;
+  margin-top: 42px;
+}
+
+.certificate-img .certified-logo img{
+  max-width: 82px;
+  max-height: 82px;
+}
+
+.certificate-img .company{
+  width: 100%;
+  text-align: center;
+}
+
+.certificate-img .company .border{
+  border-top: 2px solid #fba79d;
+  width: 325px;
+  margin: 0px auto;
+  margin-top: -12px;
+}
+
+.certificate-img .company .com-site{
+  color: #8b8b8b;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.certificate-img .credit{
+  width: 300px;
+  margin: 0px auto;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.certificate-img .credit .credit-value{
+  color: #f21600;
+  font-size: 55px;
+  margin-top: 25px;
+}
+
+.certificate-img .credit .credit-level{
+  display: flex;
+  width: 100px;
+  margin: 0px auto;
+}
+
+.certificate-img .credit .credit-level .star{
+  margin-left: 8px;
+}
+
+.certificate-img .credit .credit-level .first{
+  margin-left: 0px;
+}
+
+.certificate-img .credit .credit-level img{
+  max-width: 13px;
+  max-height: 13px;
+}
+
+.certificate-img .credit .certificate-usable-time{
+  margin: 0px auto;
+  width: 200px;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 17px;
+}
+
+.main-container .certificate .certificate-img .credit .buttons{
+  display: flex;
+  width: 185px;
+  margin: 0px auto;
+  margin-top: 18px;
+}
+
+.main-container .certificate .certificate-img .credit .buttons button{
+  width: 70px;
+  height: 20px;
+  background-color: #fff;
+  color: #f76a58;
+  font-size: 12px;
+  border: 1px solid #f76a58;
+  margin: 0px auto;
+  margin-right: 45px;
+}
+
+
+.certificate-img .certify{
+  width: 390px;
+  margin: 0px auto;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.certificate-img .certify .detail-title{
+  color: #b7b7b8;
+  font-size: 13px;
+  display: flex;
+}
+
+.certificate-img .certify .detail-title .certify-line{
+  width: 150px;
+  border-top:1px dashed #b7b7b8;
+  margin-top: 10px;
+}
+
+.certificate-img .certify .detail-title span{
+  padding: 0px 15px;
+}
+
+.certificate-img .certify .detail-content{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.certificate-img .certify .detail-content .display{
+  display: none;
+}
+
+.certificate-img .certify .detail-content .details{
+  width: 50%;
+  margin: 5px 0px;
+}
+
+.certificate-img .certify .detail-content .detail{
+  display: flex;
+}
+
+.certificate-img .certify .detail-content .detail img{
+  max-width: 12px;
+  max-height: 12px;
+}
+
+.certificate-img .certify .detail-content .detail .text{
+  font-size: 12px;
+  margin-left: 10px;
+  color: #343434;
+}
+
+.certificate-img .certify .more{
+  margin-top: 20px;
+  border-top: 1px dashed #b7b7b8;
+}
+
+.certificate-img .certify .more button{
+  background-color: #eeeeee;
+  color: #434343;
+  font-size: 12px;
+  border:none;
+  outline: none;
+  width: 80px;
+  height: 20px;
+}
+
+.certificate-img .certify .more .certify-more-img{
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  margin-left: 224px;
+  margin-top: -23px;
+}
+
+.certificate-img .certify .more img{
+  max-width: 5px;
+  height: 4px;
+}
+
+.certificate-img .other{
+  width: 470px;
+  margin: 0px auto;
+  margin-top: 35px;
+  font-size: 12px;
+  display: flex;
+}
+
+.certificate-img .other .certify-head{
+  display: flex;
+}
+
+.certificate-img .other .certfy-head-title{
+  color: #909090;
+}
+
+.certificate-img .other .certify-right{
+  margin-left: 20px;
+}
+
+.certificate-img .other .certify-head .certfy-head-content .content-detail{
+  margin: 0px 0px 3px 0px;
+}
+
+.main-container .certificate .buttons button{
+  width: 95px;
+  height: 35px;
+  background-color: #3d8efc;
+  color: #fff;
+  outline: none;
+  border: none;
+  margin: 20px 60px 20px 0;
+}
+
+.main-container .certificate-tags{
+  width: 575px;
+  margin: 0px auto;
+  font-size: 12px;
+}
+
+.main-container .certificate-tags p a{
+  color: rgb(0, 145, 234);
+}
+
+.main-container .certificate-tags .code{
+  margin-top: 30px;
+  width: 575px;
+  min-height: 120px;
+  border: 1px dashed rgb(0, 145, 234);
+}
+
+.main-container .certificate-tags .code-content{
+  width: 400px;
+  margin: 0px auto;
+  padding: 20px 0px;
+}
+
+.main-container .certificate-tags .code-content textarea{
+  font-size: 12px;
+  width: 400px;
+  border: none;
+  height: 150px;
+  outline: none;
+}

@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+}
+
+.banner {
+  position: relative;
+  height: 300px;
+  /*width: 600px;*/
+  width: 775px;
+  background-size: 100%;
+  background: url("../img/bg1.png") center no-repeat;
+  margin: 30px 18px 0 0px;
+  border: 1px solid #eee;
+  float: right;
+}
+
+/*@-webkit-keyframes rotate {
+  0%,
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes rotate {
+  0%,
+  100% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-o-keyframes rotate {
+  0%,
+  100% {
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    -o-transform: rotate(360deg);
+  }
+}
+@-ms-keyframes rotate {
+  0%,
+  100% {
+    -ms-transform: rotate(0deg);
+  }
+  100% {
+    -ms-transform: rotate(360deg);
+  }
+}*/
+@keyframes rotate {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.out,
+.center {
+  position: absolute;
+  top: 50px;
+  left: calc(50% - 100px);
+}
+
+.out {//为了尽可能兼容各个浏览器
+  -moz-animation: rotate 15s linear infinite;
+  -webkit-animation: rotate 15s linear infinite;
+  -o-animation: rotate 15s linear infinite;
+  -ms-animation: rotate 15s linear infinite;
+  animation: rotate 15s linear infinite;
+}
+
+.center {//为了尽可能兼容各个浏览器
+  -moz-animation: rotate 30s linear infinite;
+  -webkit-animation: rotate 30s linear infinite;
+  -o-animation: rotate 30s linear infinite;
+  -ms-animation: rotate 30s linear infinite;
+  animation: rotate 30s linear infinite;
+}
+
+.left-top {
+  position: absolute;
+  animation: left-top-move 15s linear infinite;
+}
+
+@keyframes left-top-move {
+  0%,
+  100% {
+    left: calc(50% - 150px);
+    top: 50px;
+    opacity: 1;
+  }
+  24% {
+    left: calc(50% - 75px);
+    top: 100px;
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  99% {
+    left: calc(50% - 150px);
+    top: 50px;
+    opacity: 0;
+  }
+}
+
+.left-bottom {
+  position: absolute;
+  animation: left-bottom-move 15s linear infinite;
+}
+
+@keyframes left-bottom-move {
+  0%,
+  25%,
+  100% {
+    left: calc(50% - 125px);
+    bottom: 50px;
+    opacity: 1;
+  }
+  49% {
+    left: calc(50% - 50px);
+    bottom: 100px;
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  99% {
+    left: calc(50% - 125px);
+    bottom: 50px;
+    opacity: 0;
+  }
+}
+
+.right-top {
+  position: absolute;
+  animation: right-top-move 15s linear infinite;
+}
+
+@keyframes right-top-move {
+  0%,
+  50%,
+  100% {
+    right: calc(50% - 175px);
+    top: 100px;
+    opacity: 1;
+  }
+  74% {
+    right: calc(50% - 50px);
+    top: 125px;
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  99% {
+    right: calc(50% - 175px);
+    top: 100px;
+    opacity: 0;
+  }
+}
+
+.right-bottom {
+  position: absolute;
+  animation: right-bottom-move 15s linear infinite;
+}
+
+@keyframes right-bottom-move {
+  0%,
+  75%,
+  100% {
+    right: calc(50% - 100px);
+    bottom: 25px;
+    opacity: 1;
+  }
+  97% {
+    right: calc(50% -25px);
+    bottom: 125px;
+    opacity: 1;
+  }
+  98% {
+    right: calc(50% -25px);
+    bottom: 125px;
+    opacity: 0;
+  }
+  99% {
+    right: calc(50% - 100px);
+    bottom: 25px;
+    opacity: 0;
+  }
+}
